@@ -1,0 +1,14 @@
+{
+  "eventId": "10000000-0000-4000-8000-000000000006",
+  "eventType": "AuctionCancelled",
+  "schemaVersion": 1,
+  "aggregateId": "20000000-0000-4000-8000-000000000003",
+  "sequence": 3,
+  "occurredAt": "2026-09-17T12:00:00Z",
+  "data": {
+    "reason": "Invoice disputed by payer",
+    "releasedInvestmentTransactionIds": [
+      "investment-tx-201"
+    ]
+  }
+}

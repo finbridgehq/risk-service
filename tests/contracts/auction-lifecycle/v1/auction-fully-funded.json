@@ -1,0 +1,9 @@
+{
+  "eventId": "10000000-0000-4000-8000-000000000004",
+  "eventType": "AuctionFullyFunded",
+  "schemaVersion": 1,
+  "aggregateId": "20000000-0000-4000-8000-000000000001",
+  "sequence": 4,
+  "occurredAt": "2026-09-16T18:00:00Z",
+  "data": {}
+}
