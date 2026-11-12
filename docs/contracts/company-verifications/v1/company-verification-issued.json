@@ -1,0 +1,31 @@
+{
+  "eventId": "91000000-0000-4000-8000-000000000001",
+  "eventType": "CompanyVerificationIssued",
+  "schemaVersion": 1,
+  "occurredAt": "2026-10-29T18:00:00.000Z",
+  "data": {
+    "verificationId": "kyc-3f1b6a0e-2c4d-4e8f-9a1b-5c6d7e8f9a0b",
+    "requestId": "70000000-0000-4000-8000-000000000001",
+    "companyId": "50000000-0000-4000-8000-000000000002",
+    "userId": "40000000-0000-4000-8000-000000000002",
+    "decision": "REJECTED",
+    "checks": [
+      {"code": "TAXPAYER_FOUND", "passed": true, "detail": "Figura en el padrón de SUNAT"},
+      {"code": "RUC_DOCUMENT_SIGNED", "passed": true, "detail": "La ficha RUC está firmada digitalmente por SUNAT"},
+      {"code": "RUC_DOCUMENT_RECENT", "passed": false, "detail": "La ficha RUC se emitió el 2026-08-14; debe tener 30 días o menos"},
+      {"code": "RUC_DOCUMENT_MATCHES", "passed": true, "detail": "La ficha es del RUC 20601234567"},
+      {"code": "NAME_MATCHES", "passed": true, "detail": "La razón social coincide con la de SUNAT «TEXTILES ANDINOS SOCIEDAD ANONIMA CERRADA»"},
+      {"code": "TAXPAYER_ACTIVE", "passed": true, "detail": "El contribuyente figura como ACTIVO en el padrón de SUNAT"},
+      {"code": "DOMICILE_FOUND", "passed": true, "detail": "El domicilio fiscal figura como HABIDO en el padrón de SUNAT"},
+      {"code": "NOT_SHELL_COMPANY", "passed": true, "detail": "No figura en la lista de SUNAT de empresas sin capacidad operativa"}
+    ],
+    "reasonCodes": ["RUC_DOCUMENT_RECENT"],
+    "fieldErrors": [],
+    "evidence": [
+      {"code": "COACTIVE_DEBT", "detail": "Tiene deuda en cobranza coactiva de SUNAT por S/ 1,520.50"}
+    ],
+    "demo": false,
+    "decidedAt": "2026-10-29T18:00:00.000Z",
+    "rulesVersion": "kyc-v1"
+  }
+}
