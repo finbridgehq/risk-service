@@ -1,0 +1,16 @@
+{
+  "eventId": "10000000-0000-4000-8000-000000000009",
+  "eventType": "AuctionRejected",
+  "schemaVersion": 1,
+  "aggregateId": "20000000-0000-4000-8000-000000000004",
+  "sequence": 2,
+  "occurredAt": "2026-09-14T15:00:05Z",
+  "data": {
+    "invoiceId": "30000000-0000-4000-8000-000000000004",
+    "mypeId": "40000000-0000-4000-8000-000000000001",
+    "assessmentId": "50000000-0000-4000-8000-000000000002",
+    "reasonCode": "PAYER_NOT_ACTIVE",
+    "reason": "El pagador no figura como contribuyente activo en SUNAT.",
+    "status": "REJECTED"
+  }
+}

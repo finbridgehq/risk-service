@@ -1,0 +1,13 @@
+{
+  "eventId": "10000000-0000-4000-8000-000000000003",
+  "eventType": "PartitionAdded",
+  "schemaVersion": 1,
+  "aggregateId": "20000000-0000-4000-8000-000000000001",
+  "sequence": 3,
+  "occurredAt": "2026-09-15T14:00:00Z",
+  "data": {
+    "partitionId": "50000000-0000-4000-8000-000000000001",
+    "addedAmount": 4000.00,
+    "currentFunding": 4000.00
+  }
+}

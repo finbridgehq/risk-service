@@ -1,0 +1,11 @@
+{
+  "eventId": "10000000-0000-4000-8000-000000000007",
+  "eventType": "AuctionClosed",
+  "schemaVersion": 1,
+  "aggregateId": "20000000-0000-4000-8000-000000000001",
+  "sequence": 5,
+  "occurredAt": "2026-10-14T17:00:00Z",
+  "data": {
+    "closingTransactionId": "settlement-tx-301"
+  }
+}

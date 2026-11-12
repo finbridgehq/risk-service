@@ -1,0 +1,16 @@
+.git
+.github
+.venv
+.agents
+.claude
+tests
+docs
+**/__pycache__
+.mypy_cache
+.ruff_cache
+.pytest_cache
+.env
+.env.*
+!.env.example
+# Demonstration CA and its private keys: mounted by docker-compose.kyc-demo.yaml, never baked in.
+demo-kyc/

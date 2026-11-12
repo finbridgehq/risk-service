@@ -1,0 +1,26 @@
+{
+  "eventId": "90000000-0000-4000-8000-000000000001",
+  "eventType": "GreenCertificationIssued",
+  "schemaVersion": 1,
+  "occurredAt": "2026-10-16T18:00:00.000Z",
+  "data": {
+    "certificationId": "green-0b6f1c9e-4d2a-4f7b-9a51-2e8d3c7f6a10",
+    "submissionId": "80000000-0000-4000-8000-000000000001",
+    "companyId": "50000000-0000-4000-8000-000000000001",
+    "mypeUserId": "40000000-0000-4000-8000-000000000001",
+    "decision": "GREEN",
+    "standard": "ISO_14001",
+    "issuer": "SGS del Perú S.A.C.",
+    "validUntil": "2028-03-31",
+    "criteria": [
+      {"code": "CERTIFICATE_READABLE", "passed": true, "detail": "Se leyó el certificado"},
+      {"code": "ACCEPTED_STANDARD", "passed": true, "detail": "Certifica ISO 14001 (ISO 14001:2015)"},
+      {"code": "IN_FORCE", "passed": true, "detail": "Vigente hasta el 2028-03-31"},
+      {"code": "HOLDER_MATCHES_SUNAT", "passed": true, "detail": "El titular coincide con la razón social en SUNAT «AGROEXPORT VERDE SOCIEDAD ANONIMA CERRADA»"},
+      {"code": "NOT_ENVIRONMENTAL_OFFENDER", "passed": true, "detail": "No figura en el registro de infractores ambientales de OEFA"}
+    ],
+    "reasonCodes": [],
+    "decidedAt": "2026-10-16T18:00:00.000Z",
+    "rulesVersion": "green-v1"
+  }
+}
