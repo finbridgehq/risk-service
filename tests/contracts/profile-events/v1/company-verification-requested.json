@@ -1,0 +1,13 @@
+{
+  "eventId": "71000000-0000-4000-8000-000000000001",
+  "eventType": "CompanyVerificationRequested",
+  "schemaVersion": 1,
+  "occurredAt": "2026-10-29T18:00:00.000Z",
+  "profileType": "COMPANY",
+  "requestId": "70000000-0000-4000-8000-000000000001",
+  "companyId": "50000000-0000-4000-8000-000000000002",
+  "userId": "40000000-0000-4000-8000-000000000002",
+  "rucNumber": "20601234567",
+  "businessName": "Textiles Andinos S.A.C.",
+  "rucDocumentKey": "companies/50000000-0000-4000-8000-000000000002/ruc/60000000-0000-4000-8000-000000000002.pdf"
+}

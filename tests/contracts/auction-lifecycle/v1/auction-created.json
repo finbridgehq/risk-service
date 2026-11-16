@@ -1,0 +1,19 @@
+{
+  "eventId": "10000000-0000-4000-8000-000000000001",
+  "eventType": "AuctionCreated",
+  "schemaVersion": 1,
+  "aggregateId": "20000000-0000-4000-8000-000000000001",
+  "sequence": 1,
+  "occurredAt": "2026-09-14T15:00:00Z",
+  "data": {
+    "invoiceId": "30000000-0000-4000-8000-000000000001",
+    "mypeId": "40000000-0000-4000-8000-000000000001",
+    "payerRuc": "20123456789",
+    "payerName": "Pagador S.A.",
+    "dueDate": "2026-10-14",
+    "invoiceAmount": 10000.00,
+    "currency": "PEN",
+    "status": "PENDING_VERIFICATION_RISK",
+    "greenCertified": true
+  }
+}

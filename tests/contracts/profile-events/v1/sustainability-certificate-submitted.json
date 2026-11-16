@@ -1,0 +1,14 @@
+{
+  "eventId": "70000000-0000-4000-8000-000000000001",
+  "eventType": "SustainabilityCertificateSubmitted",
+  "schemaVersion": 1,
+  "occurredAt": "2026-10-16T18:00:00.000Z",
+  "profileType": "COMPANY",
+  "companyId": "50000000-0000-4000-8000-000000000001",
+  "userId": "40000000-0000-4000-8000-000000000001",
+  "submissionId": "80000000-0000-4000-8000-000000000001",
+  "rucNumber": "20601234567",
+  "businessName": "Agroexport Verde S.A.C.",
+  "objectKey": "companies/50000000-0000-4000-8000-000000000001/sustainability/60000000-0000-4000-8000-000000000001.pdf",
+  "contentType": "application/pdf"
+}

@@ -1,0 +1,28 @@
+{
+  "eventId": "10000000-0000-4000-8000-000000000002",
+  "eventType": "AuctionPublished",
+  "schemaVersion": 1,
+  "aggregateId": "20000000-0000-4000-8000-000000000001",
+  "sequence": 2,
+  "occurredAt": "2026-09-14T16:00:00Z",
+  "data": {
+    "invoiceId": "30000000-0000-4000-8000-000000000001",
+    "mypeId": "40000000-0000-4000-8000-000000000001",
+    "payerRuc": "20123456789",
+    "payerName": "Pagador S.A.",
+    "dueDate": "2026-10-14",
+    "invoiceAmount": 10000.00,
+    "fundableAmount": 10000.00,
+    "targetAmount": 9884.00,
+    "currentFunding": 0.00,
+    "currency": "PEN",
+    "investorTea": 0.15,
+    "investorTermRate": 0.011735,
+    "quotedTermDays": 30,
+    "riskGrade": "B",
+    "status": "PUBLISHED",
+    "greenCertified": true,
+    "publishedAt": "2026-09-14T16:00:00Z",
+    "expiresAt": "2026-09-21T16:00:00Z"
+  }
+}
